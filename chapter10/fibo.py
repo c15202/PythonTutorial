@@ -13,3 +13,7 @@ def fib2(n):
         result.append(b)
         a,b=b,a+b
     return result
+
+if_name_=='_mian_':
+    import sys
+    fib(int(sys.argv[1]))
